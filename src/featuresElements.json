@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 0,
+        "iconUrl": "/images/icon-todo.svg",
+        "name": "Todo List"
+    },
+    {
+        "id" : 1,
+        "iconUrl": "/images/icon-calendar.svg",
+        "name": "Calendar"
+    },
+    {
+        "id" : 2,
+        "iconUrl": "/images/icon-reminders.svg",
+        "name": "Reminders"
+    },
+    {
+        "id" : 3,
+        "iconUrl": "/images/icon-planning.svg",
+        "name": "Planning"
+    }
+]

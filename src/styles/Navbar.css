@@ -1,0 +1,118 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0.625rem 2.5rem;
+    font-size: 0.8rem;
+}
+
+.logo {
+    height: 100%;
+}
+
+.nav-items {
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 0.313rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.875rem;
+}
+
+.nav-links > a {
+    text-decoration: none;
+}
+
+.nav-links > a:hover {
+    color: black;
+}
+
+.nav-links:hover {
+    cursor: pointer;
+}
+
+.nav-buttons {
+    margin-left: auto;
+    display: flex;
+    gap: 1.875rem;
+}
+
+.nav-buttons > button:hover {
+    cursor: pointer;
+    color: black;
+} 
+
+.login-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.register-btn {
+    background-color: transparent;
+    padding: 0.625rem 0.938rem;
+    border-radius: 0.625rem;
+    border: solid 0.063rem hsl(0, 0%, 8%);
+}
+
+.menu-btn {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 950px) {
+    nav {
+        width: 100%;
+        padding: 1.25rem;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 1.25rem;
+        position: fixed;
+        top:0;
+        left: 101vw;
+        height: 100%;
+        width: 60%;
+        padding: 1.25rem;
+        transition: 0.5s ease-out;
+       
+        background-color: hsl(0, 0%, 98%);
+    }
+    .nav-items.opened {
+        box-shadow: -50vw 0 0 rgba(0, 0, 0, 0.5);
+        transform: translateX(-100%);
+    }
+
+    .nav-links, .nav-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .nav-links {
+        margin-top: 3.125rem;
+        gap: 1.25rem
+    }
+
+    .nav-buttons {
+        gap: 0.625rem
+    }
+    .nav-buttons, .nav-buttons > button {
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu-btn {
+        visibility: visible;
+        margin-left: auto;
+        z-index: 2;
+        top: 0;
+        right: 0;
+    }
+}
