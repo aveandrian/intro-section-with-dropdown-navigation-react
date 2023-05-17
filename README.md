@@ -20,4 +20,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop:
+![image](https://github.com/aveandrian/intro-section-with-dropdown-navigation-react/assets/13519212/782dec85-d985-4dee-bbc9-2e17b75468c0)
+
+#### Mobile:
+![image](https://github.com/aveandrian/intro-section-with-dropdown-navigation-react/assets/13519212/7ddd8fa9-7e83-44ca-8dfa-97e2bc95aa7b)
